@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B45F205-24D0-4611-BF85-57D7DFC83405}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Program_COVID</RootNamespace>
+    <AssemblyName>Program_COVID</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books.Designer.cs">
+      <DependentUpon>Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film.Designer.cs">
+      <DependentUpon>Film.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_eight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_eight.Designer.cs">
+      <DependentUpon>Film_eight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_five.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_five.Designer.cs">
+      <DependentUpon>Film_five.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_four.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_four.Designer.cs">
+      <DependentUpon>Film_four.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_nine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_nine.Designer.cs">
+      <DependentUpon>Film_nine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_one.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_one.Designer.cs">
+      <DependentUpon>Film_one.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_seven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_seven.Designer.cs">
+      <DependentUpon>Film_seven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_six.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_six.Designer.cs">
+      <DependentUpon>Film_six.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_ten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_ten.Designer.cs">
+      <DependentUpon>Film_ten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_three.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_three.Designer.cs">
+      <DependentUpon>Film_three.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film_two.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film_two.Designer.cs">
+      <DependentUpon>Film_two.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Music.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Music.Designer.cs">
+      <DependentUpon>Music.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sport.Designer.cs">
+      <DependentUpon>Sport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Books.resx">
+      <DependentUpon>Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film.resx">
+      <DependentUpon>Film.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_eight.resx">
+      <DependentUpon>Film_eight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_five.resx">
+      <DependentUpon>Film_five.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_four.resx">
+      <DependentUpon>Film_four.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_nine.resx">
+      <DependentUpon>Film_nine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_one.resx">
+      <DependentUpon>Film_one.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_seven.resx">
+      <DependentUpon>Film_seven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_six.resx">
+      <DependentUpon>Film_six.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_ten.resx">
+      <DependentUpon>Film_ten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_three.resx">
+      <DependentUpon>Film_three.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film_two.resx">
+      <DependentUpon>Film_two.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Music.resx">
+      <DependentUpon>Music.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sport.resx">
+      <DependentUpon>Sport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="book\t_pof-2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\backgr_top_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\books_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\books_bcgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\film10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\game_bcgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\music %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\music_bcgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\music_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\sport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\sport_backgr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\sport_backgr.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
